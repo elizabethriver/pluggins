@@ -1,0 +1,23 @@
+{
+  "name": "pluggins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ../website/index.html",
+    "start-ts": "tsc ../website/ejercicios/decorator/index.ts",
+    "build": "parcel build"
+  },
+  "mime": {
+    "text/x-typescript": ["ts","tsx"]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1",
+    "typescript": "^4.5.2"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
